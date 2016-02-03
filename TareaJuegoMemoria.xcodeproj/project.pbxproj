@@ -6,16 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		3BE858AA1C62A15A006FA22B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE858A91C62A15A006FA22B /* AppDelegate.swift */; };
-		3BE858AC1C62A15A006FA22B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE858AB1C62A15A006FA22B /* ViewController.swift */; };
-		3BE858AF1C62A15A006FA22B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE858AD1C62A15A006FA22B /* Main.storyboard */; };
-		3BE858B11C62A15A006FA22B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BE858B01C62A15A006FA22B /* Assets.xcassets */; };
-		3BE858B41C62A15A006FA22B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BE858B21C62A15A006FA22B /* LaunchScreen.storyboard */; };
-		3BE858BF1C62A15A006FA22B /* TareaJuegoMemoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE858BE1C62A15A006FA22B /* TareaJuegoMemoriaTests.swift */; };
-		3BE858CA1C62A15A006FA22B /* TareaJuegoMemoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE858C91C62A15A006FA22B /* TareaJuegoMemoriaUITests.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		3BE858BB1C62A15A006FA22B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -34,19 +24,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3BE858A61C62A15A006FA22B /* TareaJuegoMemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TareaJuegoMemoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BE858A91C62A15A006FA22B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3BE858AB1C62A15A006FA22B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3BE858AE1C62A15A006FA22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3BE858B01C62A15A006FA22B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3BE858B31C62A15A006FA22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3BE858B51C62A15A006FA22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BE858BA1C62A15A006FA22B /* TareaJuegoMemoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareaJuegoMemoriaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BE858BE1C62A15A006FA22B /* TareaJuegoMemoriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareaJuegoMemoriaTests.swift; sourceTree = "<group>"; };
-		3BE858C01C62A15A006FA22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3BE858C51C62A15A006FA22B /* TareaJuegoMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TareaJuegoMemoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BE858C91C62A15A006FA22B /* TareaJuegoMemoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TareaJuegoMemoriaUITests.swift; sourceTree = "<group>"; };
-		3BE858CB1C62A15A006FA22B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE858A61C62A15A006FA22B /* TareaJuegoMemoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TareaJuegoMemoria.app; path = "/Users/dev04/Cursos/Swift/TareaJuegoMemoria/build/Debug-iphoneos/TareaJuegoMemoria.app"; sourceTree = "<absolute>"; };
+		3BE858BA1C62A15A006FA22B /* TareaJuegoMemoriaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TareaJuegoMemoriaTests.xctest; path = "/Users/dev04/Cursos/Swift/TareaJuegoMemoria/build/Debug-iphoneos/TareaJuegoMemoriaTests.xctest"; sourceTree = "<absolute>"; };
+		3BE858C51C62A15A006FA22B /* TareaJuegoMemoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TareaJuegoMemoriaUITests.xctest; path = "/Users/dev04/Cursos/Swift/TareaJuegoMemoria/build/Debug-iphoneos/TareaJuegoMemoriaUITests.xctest"; sourceTree = "<absolute>"; };
+		3BE858D91C62B275006FA22B /* TareaJuegoMemoria.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TareaJuegoMemoria.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,52 +58,8 @@
 		3BE8589D1C62A15A006FA22B = {
 			isa = PBXGroup;
 			children = (
-				3BE858A81C62A15A006FA22B /* TareaJuegoMemoria */,
-				3BE858BD1C62A15A006FA22B /* TareaJuegoMemoriaTests */,
-				3BE858C81C62A15A006FA22B /* TareaJuegoMemoriaUITests */,
-				3BE858A71C62A15A006FA22B /* Products */,
+				3BE858D91C62B275006FA22B /* TareaJuegoMemoria.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		3BE858A71C62A15A006FA22B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3BE858A61C62A15A006FA22B /* TareaJuegoMemoria.app */,
-				3BE858BA1C62A15A006FA22B /* TareaJuegoMemoriaTests.xctest */,
-				3BE858C51C62A15A006FA22B /* TareaJuegoMemoriaUITests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		3BE858A81C62A15A006FA22B /* TareaJuegoMemoria */ = {
-			isa = PBXGroup;
-			children = (
-				3BE858A91C62A15A006FA22B /* AppDelegate.swift */,
-				3BE858AB1C62A15A006FA22B /* ViewController.swift */,
-				3BE858AD1C62A15A006FA22B /* Main.storyboard */,
-				3BE858B01C62A15A006FA22B /* Assets.xcassets */,
-				3BE858B21C62A15A006FA22B /* LaunchScreen.storyboard */,
-				3BE858B51C62A15A006FA22B /* Info.plist */,
-			);
-			path = TareaJuegoMemoria;
-			sourceTree = "<group>";
-		};
-		3BE858BD1C62A15A006FA22B /* TareaJuegoMemoriaTests */ = {
-			isa = PBXGroup;
-			children = (
-				3BE858BE1C62A15A006FA22B /* TareaJuegoMemoriaTests.swift */,
-				3BE858C01C62A15A006FA22B /* Info.plist */,
-			);
-			path = TareaJuegoMemoriaTests;
-			sourceTree = "<group>";
-		};
-		3BE858C81C62A15A006FA22B /* TareaJuegoMemoriaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3BE858C91C62A15A006FA22B /* TareaJuegoMemoriaUITests.swift */,
-				3BE858CB1C62A15A006FA22B /* Info.plist */,
-			);
-			path = TareaJuegoMemoriaUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,7 +150,7 @@
 				Base,
 			);
 			mainGroup = 3BE8589D1C62A15A006FA22B;
-			productRefGroup = 3BE858A71C62A15A006FA22B /* Products */;
+			productRefGroup = 3BE8589D1C62A15A006FA22B;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -229,9 +166,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE858B41C62A15A006FA22B /* LaunchScreen.storyboard in Resources */,
-				3BE858B11C62A15A006FA22B /* Assets.xcassets in Resources */,
-				3BE858AF1C62A15A006FA22B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +190,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE858AC1C62A15A006FA22B /* ViewController.swift in Sources */,
-				3BE858AA1C62A15A006FA22B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +197,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE858BF1C62A15A006FA22B /* TareaJuegoMemoriaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +204,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BE858CA1C62A15A006FA22B /* TareaJuegoMemoriaUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,25 +221,6 @@
 			targetProxy = 3BE858C61C62A15A006FA22B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3BE858AD1C62A15A006FA22B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3BE858AE1C62A15A006FA22B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3BE858B21C62A15A006FA22B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3BE858B31C62A15A006FA22B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3BE858CC1C62A15A006FA22B /* Debug */ = {
