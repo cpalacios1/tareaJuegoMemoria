@@ -5,15 +5,15 @@ import UIKit
 
 for i in 0...100 {
     if i%5 == 0 {
-        print("\(i)\tBingo!!!")
+        print("#\(i)\tBingo!!!")
     }
     if i%2 == 0 {
-        print("\(i)\tpar!!!")
+        print("#\(i)\tpar!!!")
     }
     if i%2 != 0 {
-        print("\(i)\timpar!!!")
+        print("#\(i)\timpar!!!")
     }
     if i >= 30 && i <= 40 {
-        print("\(i)\tViva Swift!!!")
+        print("#\(i)\tViva Swift!!!")
     }
 }
